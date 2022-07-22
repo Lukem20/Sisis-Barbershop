@@ -1,0 +1,57 @@
+/* Responsive title */
+@media only screen and (max-width: 645px) {
+	h1 {
+		font-size: 26px;
+		padding-right: 1rem;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	#logo {
+    height: 5rem;
+	}
+}
+@media only screen and (max-width: 518px) {
+	h1 {
+		font-size: 20px;
+	}
+	#logo {
+    height: 4.5rem;
+  }
+}
+@media only screen and (max-width: 455px) {
+	.header-container {
+		height: 4rem;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	#logo {
+    height: 4rem;
+	}
+}
+@media only screen and (max-width: 344px) {
+	h1 {
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+	}
+}
+
+/* Responsive button */
+@media only screen and (max-width: 500px) {
+	#book-now {
+		padding: 0.65rem 2rem;
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	#book-now {
+		padding:0.4rem 1.2rem;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 536px) {
+	.carousel-container {
+		width: auto;
+	}
+}
