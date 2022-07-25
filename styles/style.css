@@ -2,28 +2,26 @@
 	font-family: Cera;
 	src: url("../assets/CeraPro-Bold.woff")
 }
-
 html, body {
   height: 100%;
   margin: 0px;
 }
+
 /* Header styles */
 .header-container {
-	width: 100%;
 	height: 5rem;
 	background-color: black;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 }
 
 #logo {
+	position: absolute;
 	height: 5.5rem;
 }
 
 h1 {
 	color: white;
-	padding-left: 3vh;
 }
 
 a {
