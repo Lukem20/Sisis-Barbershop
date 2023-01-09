@@ -1,7 +1,9 @@
 @font-face {
 	font-family: Cera;
-	src: url("../assets/CeraPro-Bold.woff")
+	src: url("../assets/cerapro-bold.otf");
+	font-weight: bold;
 }
+
 html, body {
   height: 100%;
   margin: 0px;
@@ -134,6 +136,7 @@ a {
 
 /* Location + Hours styles */
 .info-container {
+	font-family: Cera;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
