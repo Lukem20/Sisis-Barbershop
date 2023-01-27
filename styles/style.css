@@ -9,7 +9,6 @@ html, body {
   margin: 0px;
 }
 
-
 /* Header styles */
 .header-container {
 	height: 5rem;
@@ -32,15 +31,14 @@ a {
 	text-decoration: none;
 }
 
-
 /* Carousel/Hero styles */
 .carousel-container {
-	height: 37vw;
+	height: 40vw;
 	width: 100%;
   	position: relative;
 }
 .carousel-container img {
-	height: 37vw;
+	height: 40vw;
 	width: 100%;
 	object-fit: cover;
 }
@@ -76,7 +74,6 @@ a {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
 }
 
 	/* Fading animation */

@@ -35,21 +35,9 @@
 
 /* Responsive button */
 @media only screen and (max-width: 500px) {
-	#book-now {
-		padding: 0.65rem 2rem;
+	.book-now {
+		padding: 1.2rem 2rem;
 		font-size: 18px;
-	}
-}
-@media only screen and (max-width: 375px) {
-	#book-now {
-		padding:0.4rem 1.2rem;
-		font-size: 14px;
-	}
-}
-
-@media only screen and (max-width: 536px) {
-	.carousel-container {
-		width: auto;
 	}
 }
 
