@@ -107,22 +107,22 @@ a {
 	transition: all 0.5s;
 }
 .book-now:hover {
-  background-color: white;
-  color: #39A455;
+	background-color: white;
+	color: #39A455;
 	cursor: pointer;
 }
 .book-now:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;  
-  right: +20px;
+	content: '»';
+	position: absolute;
+	opacity: 0;  
+	right: +20px;
 }
 .book-now:hover{
-  padding-right: 65px;
+	padding-right: 65px;
 }
 .book-now:hover:after {
-  opacity: 1;
-  right: 20px;
+	opacity: 1;
+	right: 20px;
 }
 
 #styled-bar {
