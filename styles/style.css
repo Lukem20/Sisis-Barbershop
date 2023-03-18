@@ -43,10 +43,6 @@ h1 {
 	color: white;
 }
 
-a {
-	text-decoration: none;
-}
-
 /* Carousel/Hero styles */
 .carousel-container {
 	height: 40vw;
@@ -159,8 +155,9 @@ a {
 }
 
 .address {
-	margin: 0;
+	margin: auto;
 	display: block;
+	width: 60%;
 }
 
 .hours {
