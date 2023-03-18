@@ -1,8 +1,13 @@
+:root {
+	-webkit-font-smoothing: antialiased;
+}
+
 @font-face {
 	font-family: Cera;
 	src: url("../assets/Cera-Pro-Bold.otf");
 	font-weight: bold;
 }
+
 
 html, body {
   height: 100%;
