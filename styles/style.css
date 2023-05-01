@@ -8,6 +8,15 @@
 	font-weight: bold;
 }
 
+/* Helps people with vestibular and seizure disorders use the web. */
+@media screen and (prefers-reduced-motion: reduce) {  
+	* {
+	  /* Short durations means JavaScript that relies on events still works */
+	  animation-duration: 0.001ms !important;
+	  animation-iteration-count: 1 !important;
+	  transition-duration: 0.001ms !important;
+  }
+
 
 html, body {
   height: 100%;
