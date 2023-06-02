@@ -36,14 +36,17 @@
 /* Responsive button */
 @media only screen and (max-width: 500px) {
 	.book-now {
-		padding: 1.2rem 2rem;
+		padding: 1rem 2rem;
 		font-size: 18px;
 	}
 }
 
-/* Responsive business hours */
-@media only screen and (max-width: 542px) {
+/* Responsive business information */
+@media only screen and (max-width: 703px) {
 	#hours-container {
-		margin-top: 1.5rem;
+		margin-top: 2.5rem;
+	}
+	#styled-bar {
+		height: 0.5rem;
 	}
 }

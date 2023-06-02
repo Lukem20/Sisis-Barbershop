@@ -146,12 +146,12 @@ h1 {
 /* Location + Hours styles */
 .info-container {
 	font-family: Cera;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	font-size: 18px;
-	padding-top: 1.5rem;
-	padding-bottom: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 18px;
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
 }
 
 .address {
