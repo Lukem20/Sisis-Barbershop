@@ -32,8 +32,12 @@
 }
 
 .profile-pic {
-	object-fit: contain;
-	width: 20rem;
+    object-fit: cover;
+    width: 20rem;
+    max-height: 100%;
+}
+#dv {
+	height: 213.33px;
 }
 
 .book-now {
