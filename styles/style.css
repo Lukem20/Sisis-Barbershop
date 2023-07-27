@@ -1,6 +1,9 @@
 :root {
 	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	margin: 0px;
 }
+
 
 @font-face {
 	font-family: Cera;
@@ -8,11 +11,6 @@
 	font-weight: bold;
 }
 
-
-html, body {
-  height: 100%;
-  margin: 0px;
-}
 
 /* Scrollbar styles */
 body::-webkit-scrollbar {
@@ -25,6 +23,7 @@ body::-webkit-scrollbar-thumb {
 	background: #6649b8;
 }
 
+
 /* Header styles */
 .header-container {
 	height: 5rem;
@@ -32,16 +31,15 @@ body::-webkit-scrollbar-thumb {
 	display: flex;
 	justify-content: space-between;
 }
-
 #logo {
 	position: absolute;
 	height: 5.5rem;
 }
-
 h1 {
 	font-family: Cera;
 	color: white;
 }
+
 
 /* Carousel/Hero styles */
 .carousel-container {
@@ -54,11 +52,9 @@ h1 {
 	width: 100%;
 	object-fit: cover;
 }
-
 .mySlides {
 	display: none;
 }
-
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
@@ -80,25 +76,21 @@ h1 {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 .slide-number {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
 }
-
 	/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1s;
 }
-
 @keyframes fade {
   from {opacity: 0.6} 
   to {opacity: 1}
 }
-
 .carousel-center {
 	margin: 0;
 	position: absolute;
@@ -107,6 +99,7 @@ h1 {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
 
 .book-now {
 	font-family: Cera;
@@ -137,11 +130,13 @@ h1 {
 	right: 20px;
 }
 
+
 #styled-bar {
 	height: 1rem;
 	width: 100%;
 	background-color: black;
 }
+
 
 /* Location + Hours styles */
 .info-container {
@@ -151,33 +146,27 @@ h1 {
     flex-wrap: wrap;
     font-size: 18px;
     padding-top: 2rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.5rem;
 }
-
 .address {
 	margin: auto;
 	display: block;
 	width: 60%;
 }
-
 .hours {
 	display: inline-block;
-	margin: auto;
 	margin-top: -1rem;
 }
-
 .icon {
 	display: block;
 	height: 5rem;
 	width: 5rem;
 	margin: auto;
 }
-
 ul {
 	padding-inline-start: 0px;
 	padding-left: 1rem;
 }
-
 li {
 	list-style: none;
 }
