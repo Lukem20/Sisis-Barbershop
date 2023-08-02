@@ -1,50 +1,64 @@
 .card-container {
 	padding-bottom: 3rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
 	background-color: black;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
-	background: white;
-	max-width: 20rem;
-	height: 22rem;
-	margin-top: 1.5rem;
-	margin-right: 0.5rem;
-	margin-left: 0.5rem;
-	padding: 1rem 1.5rem;
-	text-align: center;
-	border-radius: 8px;
-	opacity: 0.85;
-	transition:all 0.3s ease;
+    background: white;
+    width: 20rem;
+    margin-top: 4rem;
+    height: 3.5rem;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;  
 }
-.card:hover {
+
+.vagaro {
+	opacity: 0.85;
+    transition: all 0.3s ease;
+	text-decoration: none;
+	color: black;
+}
+.vagaro:hover {
 	opacity: 1;
 }
 
 .name {
 	font-family:'Times New Roman', Times, serif;
-	padding-top: 0.5rem;
-	padding-bottom: 2rem;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+	padding-right: 1.5rem;
 	margin: 0;
 }
 
 .profile-pic {
-    object-fit: cover;
-    width: 20rem;
-    max-height: 100%;
+	object-fit: cover;
+    width: 10rem;
+    translate: -50px 0px;
+    overflow: visible;
+}
+.pic-cropper {
+	width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    translate: -10px;
+}
+#cs {
+	translate: -40px; 
 }
 #dv {
-	height: 213.33px;
+	height: 85.32px;
 }
 
 .book-now {
 	border-radius: 8px;
 	padding: 1rem 1.5rem;
 }
-
 .book-now:hover {
   color: #39A455;
 	border: 1px solid #39A455;
