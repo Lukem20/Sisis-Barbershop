@@ -6,11 +6,12 @@
 }
 
 .card-container {
-	padding-bottom: 3rem;
-	background-color: black;
-	display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding-bottom: 4rem;
+  margin-bottom: 3rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {
