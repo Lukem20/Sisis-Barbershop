@@ -22,6 +22,7 @@
 	h1 {
 		font-size: 22px;
 		padding-left: 1.1rem;
+		padding-top: 0.5rem;
 	}
 	#logo {
     	height: 4rem;
@@ -29,7 +30,8 @@
 }
 @media only screen and (max-width: 365px) {
 	h1 {
-		font-size: 18px;
+		font-size: 20px;
+		padding-top: 0.75rem;
 	}
 }
 

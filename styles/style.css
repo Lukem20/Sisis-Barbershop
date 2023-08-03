@@ -7,9 +7,19 @@ body {
 }
 
 @font-face {
-	font-family: Cera;
-	src: url("../assets/Cera-Pro-Bold.otf");
+	font-family: League Spartan;
+	src: url("../assets/LeagueSpartan-Bold.woff2");
 	font-weight: bold;
+}
+@font-face {
+	font-family: League Spartan;
+	src: url("../assets/LeagueSpartan-Black.woff2");
+	font-weight: regular;
+}
+@font-face {
+	font-family: League Spartan;
+	src: url("../assets/LeagueSpartan-Medium.woff2");
+	font-weight: medium;
 }
 
 
@@ -37,8 +47,9 @@ body::-webkit-scrollbar-thumb {
 	height: 5.5rem;
 }
 h1 {
-	font-family: Cera;
+	font-family: League Spartan;
 	color: white;
+	padding-top: 0.5rem;
 }
 
 
@@ -103,7 +114,7 @@ h1 {
 
 
 .book-now {
-	font-family: Cera;
+	font-family: League Spartan;
 	font-size: 22px;
 	padding: 1rem 3rem;
 	border: none;
@@ -141,7 +152,7 @@ h1 {
 
 /* Location + Hours styles */
 .info-container {
-	font-family: Cera;
+	font-family: League Spartan;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
