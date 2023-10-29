@@ -10,16 +10,19 @@ body {
 	font-family: League Spartan;
 	src: url("../assets/LeagueSpartan-Bold.woff2");
 	font-weight: bold;
+	font-display: swap;
 }
 @font-face {
 	font-family: League Spartan;
 	src: url("../assets/LeagueSpartan-Black.woff2");
 	font-weight: regular;
+	font-display: swap;
 }
 @font-face {
 	font-family: League Spartan;
 	src: url("../assets/LeagueSpartan-Medium.woff2");
 	font-weight: medium;
+	font-display: swap;
 }
 
 
