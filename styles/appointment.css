@@ -52,7 +52,6 @@
 .pic-cropper {
 	width: 100px;
     height: 100px;
-    position: relative;
     overflow: hidden;
     border-radius: 50%;
     translate: -10px;
@@ -62,6 +61,9 @@
 }
 #dv {
 	height: 85.32px;
+}
+#mc {
+  translate: -20px;
 }
 
 .book-now {
