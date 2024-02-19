@@ -2,7 +2,8 @@
   color: white;
   font-size: 1.6rem;
   font-family: League Spartan;
-  margin-top: 3rem;
+  font-weight: 500;
+  margin-top: 4rem;
 }
 
 .card-container {
@@ -59,11 +60,8 @@
 #cs {
 	translate: -40px; 
 }
-#dv {
-	height: 85.32px;
-}
 #mc {
-  translate: -20px;
+  translate: -42px;
 }
 
 .book-now {
