@@ -16,19 +16,19 @@
 }
 
 .card {
-    background: white;
-    width: 20rem;
-    margin-top: 4rem;
-    height: 3.5rem;
-    text-align: center;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;  
+  background: white;
+  width: 20rem;
+  margin-top: 4rem;
+  height: 3.5rem;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;  
 }
 
 .vagaro {
 	opacity: 0.85;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 	text-decoration: none;
 	color: black;
 }
@@ -46,22 +46,33 @@
 
 .profile-pic {
 	object-fit: cover;
-    width: 10rem;
-    translate: -50px 0px;
-    overflow: visible;
+  width: 10rem;
+  translate: -50px 0px;
+  overflow: visible;
 }
 .pic-cropper {
 	width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-    translate: -10px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  translate: -10px;
 }
+
+/* Position profile pic images */
 #cs {
 	translate: -40px; 
 }
-#mc {
-  translate: -42px;
+#sc {
+  translate: -57px 0px;
+}
+#jill {
+  translate: -5px -10px;
+}
+#rafa {
+  translate: -50px -40px;
+}
+#fa {
+  translate: -10px -20px;
 }
 
 .book-now {
