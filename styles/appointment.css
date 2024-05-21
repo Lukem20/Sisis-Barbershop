@@ -74,6 +74,9 @@
 #fa {
   translate: -10px -20px;
 }
+#da {
+  translate: 0px;
+}
 
 .book-now {
 	border-radius: 8px;
