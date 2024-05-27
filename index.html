@@ -7,7 +7,9 @@
   <meta name="keywords" content="Santa Rosa, barbershop, haircut, shave, trim">
   <meta name="description" content="Indulge in an unmatched barber experience at Sisi's Barbershop in Santa Rosa, CA. We deliver precision haircuts, classic shaves, and a range of modern services for men. Immerse yourself in our inviting atmosphere and enjoy exceptional customer service. Schedule an appointment today to experience personalized care at Sisi's Barbershop.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Sisi's Barbershop</title>
+
   <link rel="icon" type="image/png" href="assets/icons/sisis-barbershop-logo-03.png">
   <link href="styles/style.css" rel="stylesheet" type="text/css" />
   <link href="styles/responsive-style.css" rel="stylesheet" type="text/css" />
@@ -17,18 +19,18 @@
 	<header class="header-container">
 		<a href="index.html"><img id="logo" src="assets/icons/sisis-barbershop_logo-02.svg" alt="Sisi's Barbershop logo" /></a>
 		<h1>SISI'S BARBERSHOP</h1>
-		<div id="spacer"></div>
+		<div aria-hidden="true" id="spacer"></div>
 	</header>
 	
-	<div class="carousel-container">
-		<div class="mySlides fade">
+	<section class="carousel-container">
+		<div class="carousel-item fade">
 		  <div class="slide-number">1 / 8</div>
 		  <img src="assets/clippers.jpg" 
 		  	alt="Close-up view of electric razors organized in a row. Razor blade and pair of scissors out of focus in the background."
 			loading="eager">
 		</div>
 		
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">2 / 8</div>
 		  <img src="assets/chairs.jpg" 
 		  	alt="A pair of leather chairs face away from a barber's counter top. A towel is draped over the armrest of the first chair."
@@ -36,7 +38,7 @@
 			decoding="async">
 		</div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">3 / 8</div>
 		  <img src="assets/silvia.jpg" 
 		  	alt="A barber uses her electric razor to trim the sides of a man's moustache."
@@ -44,7 +46,7 @@
 			decoding="async">
 		</div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">4 / 8</div>
 		  <img src="assets/cody.jpg" 
 		  	alt="Viewed from a mirror reflection, a boy sits in a chair while the barber gives a haircut."
@@ -52,7 +54,7 @@
 			decoding="async">
 		</div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 			<div class="slide-number">5 / 8</div>
 			<img src="assets/dv-slideshow1.jpg" 
 				alt="A barber gives the finishing touches to the haircut of his client."
@@ -60,7 +62,7 @@
 			  decoding="async">
 		  </div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">6 / 8</div>
 		  <img src="assets/beard-trim.jpg" 
 		  	alt="A man leans his head back as the barber behind him gently applies shaving cream to his cheeks."
@@ -68,7 +70,7 @@
 			decoding="async">
 		</div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">7 / 8</div>
 		  <img src="assets/clippers2.jpg" 
 		  	alt="Three electric razors are organized in a row against a dark background. Next to them lie a pair of scissors."
@@ -76,7 +78,7 @@
 			decoding="async">
 		</div>
 
-		<div class="mySlides fade">
+		<div class="carousel-item fade">
 		  <div class="slide-number">8 / 8</div>
 		  <img src="assets/front-logo.jpg" 
 		  	alt="The window of the shop with a logo decal on the glass. The logo is a barber's pole with eagle wings on either side."
@@ -84,22 +86,25 @@
 			decoding="async">
 		</div>
 		
-		<div class="carousel-center">
+		<nav class="carousel-center">
 			<a href="appointment.html"><button class="button book-now"><span>BOOK NOW</span></button></a>
-		</div>
+		</nav>
 		
-		<a class="prev" onclick="plusSlides(-1)">❮</a>
-		<a class="next" onclick="plusSlides(1)">❯</a>
-	</div>
+		<a class="prev" onclick="changeSlideIndex(-1)">❮</a>
+		<a class="next" onclick="changeSlideIndex(1)">❯</a>
+	</section>
 
-	<div id="styled-bar"></div>
+	<div aria-hidden="true" id="styled-bar"></div>
 	
-	<div class="info-container">
+	<section class="info-container">
 		<div>
 			<img src="assets/icons/pin-icon-05.svg" class="icon" alt="pin location icon">
 			<a href="https://www.google.com/maps/search/?api=1&query=Sisi%27s%20Barbershop%2C%20Farmers%20Lane%2C%20Santa%20Rosa%2C%20CA" 
-				target="_blank" rel="noopener noreferrer" class="address">
-				1523 Farmers Lane Santa Rosa, CA 95405</a>
+				target="_blank" rel="noopener noreferrer" class="address-section">
+				<address>1523 Farmers Lane 
+Santa Rosa, CA
+95405</address>
+			</a>
 		</div>
 		
 		<div id="hours-container">
@@ -113,13 +118,13 @@
 			</div>
 			<div class="hours">
 				<ul>
-					<li>10:00 A.M. - 6:00 P.M.</li>
-					<li>9:00 A.M.  - 6:00 P.M.</li>
-					<li>9:00 A.M.  - 3:00 P.M.</li>
+					<li><time>10:00 AM</time> - <time></time>6:00 PM</time></li>
+					<li><time>9:00 AM</time>  - <time>6:00 PM</time></li>
+					<li><time>9:00 AM</time>  - <time>3:00 PM</time></li>
 				</ul>
 			</div>
 		</div>
-	</div>
+	</section>
 	
 <script src="script.js"></script>
 </body>
