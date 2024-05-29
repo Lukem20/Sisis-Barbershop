@@ -1,0 +1,90 @@
+/* *** Home page styles *** */
+
+/* Carousel styles */
+.carousel-container {
+	height: 40vw;
+	width: 100%;
+  	position: relative;
+	margin-bottom: 1em;
+}
+.carousel-container img {
+	height: 40vw;
+	width: 100%;
+	object-fit: cover;
+}
+.mySlides {
+	display: none;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.slide-number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@keyframes fade {
+  from {opacity: 0.6} 
+  to {opacity: 1}
+}
+.carousel-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+/* Call to Action */
+.book-now {
+	font-family: League Spartan;
+	font-size: 22px;
+	padding: 1rem 3rem;
+	border: none;
+	border-radius: 10px;
+	background-color: #39A455;
+	color: white;
+	transition: all 0.5s;
+}
+.book-now:hover {
+	background-color: white;
+	color: #39A455;
+	cursor: pointer;
+}
+.book-now:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;  
+	right: +20px;
+}
+.book-now:hover{
+	padding-right: 65px;
+}
+.book-now:hover:after {
+	opacity: 1;
+	right: 20px;
+}

@@ -4,51 +4,49 @@
 		font-size: 28px;
 	}
 	#logo {
-    	height: 5rem;
+    	height: 5em;
 	}
 }
 @media only screen and (max-width: 518px) {
 	h1 {
 		font-size: 25px;
+		padding-bottom: 0.25em;
 	}
 	#logo {
-    	height: 4.5rem;
+    	height: 4.25em;
+		padding-top: 0.35em;
   	}
 }
 @media only screen and (max-width: 455px) {
 	.header-container {
-		height: 4rem;
+		height: 4em;
 	}
 	h1 {
 		font-size: 22px;
-		padding-left: 1.1rem;
-		padding-top: 0.5rem;
+		padding-left: 0.75em;
+		padding-top: 0.65em;
 	}
 	#logo {
-    	height: 4rem;
+    	height: 3.5em;
 	}
 }
 @media only screen and (max-width: 365px) {
 	h1 {
-		font-size: 20px;
-		padding-top: 0.75rem;
+		margin-left: 1em;
 	}
 }
 
 /* Responsive button */
 @media only screen and (max-width: 500px) {
 	.book-now {
-		padding: 1rem 2rem;
+		padding: 1em 2em;
 		font-size: 18px;
 	}
 }
 
 /* Responsive business information */
 @media only screen and (max-width: 703px) {
-	#hours-container {
-		margin-top: 2.5rem;
-	}
-	#styled-bar {
-		height: 0.5rem;
+	.carousel-container {
+		margin-bottom: 0.5em;
 	}
 }

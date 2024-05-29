@@ -1,12 +1,4 @@
-:root {
-	-webkit-font-smoothing: antialiased;
-}
-body {
-	height: 100%;
-	margin: 0px;
-	background-color: black;
-}
-
+/* *** Font imports *** */
 @font-face {
 	font-family: League Spartan;
 	src: url("../assets/fonts/LeagueSpartan-Bold.woff2");
@@ -26,8 +18,17 @@ body {
 	font-display: swap;
 }
 
+/* *** Global Styles *** */
+:root {
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	height: 100%;
+	margin: 0px;
+	background-color: black;
+}
 
-/* Scrollbar styles */
+/* Scrollbar */
 body::-webkit-scrollbar {
 	width: 0.5rem;
 }
@@ -38,8 +39,7 @@ body::-webkit-scrollbar-thumb {
 	background: #6649b8;
 }
 
-
-/* Header styles */
+/* Header */
 .header-container {
 	height: 5.6em;
 	background-color: black;
@@ -58,138 +58,51 @@ h1 {
 	margin-bottom: auto;;
 }
 
-
-/* Carousel/Hero styles */
-.carousel-container {
-	height: 40vw;
-	width: 100%;
-  	position: relative;
-}
-.carousel-container img {
-	height: 40vw;
-	width: 100%;
-	object-fit: cover;
-}
-.mySlides {
-	display: none;
-}
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-.slide-number {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-}
-	/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1s;
-}
-@keyframes fade {
-  from {opacity: 0.6} 
-  to {opacity: 1}
-}
-.carousel-center {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-
-.book-now {
-	font-family: League Spartan;
-	font-size: 22px;
-	padding: 1rem 3rem;
-	border: none;
-	border-radius: 10px;
-	background-color: #39A455;
-	color: white;
-	transition: all 0.5s;
-}
-.book-now:hover {
-	background-color: white;
-	color: #39A455;
-	cursor: pointer;
-}
-.book-now:after {
-	content: '»';
-	position: absolute;
-	opacity: 0;  
-	right: +20px;
-}
-.book-now:hover{
-	padding-right: 65px;
-}
-.book-now:hover:after {
-	opacity: 1;
-	right: 20px;
-}
-
-
-#styled-bar {
-	height: 1rem;
-	width: 100%;
-	background-color: black;
-}
-
-
-/* Location + Hours styles */
+/* Location + Hours Footer */
 .info-container {
 	background-color: white;
 	font-family: League Spartan;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 19px;
 	line-height: 180%;
-    padding-top: 2rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 3em;
+}
+.icon {
+	display: block;
+	height: 5em;
+	width: 5em;
+	margin: auto;
+}
+#address-container {
+	padding-top: 2em;
 }
 .address-section {
 	margin: auto;
-	display: block;
-	width: 60%;
+	text-align: center;
 }
 .address-section address {
 	font-style: normal;
 	white-space: pre;
 }
-.hours {
+#hours-container {
+	padding-top: 2em;
+}
+.business-hours {
 	display: inline-block;
 	margin-top: -1rem;
 }
-.icon {
-	display: block;
-	height: 5rem;
-	width: 5rem;
-	margin: auto;
+#days {
+	padding-left: 0;
 }
+#times {
+	text-align: right;
+}
+
 ul {
 	padding-inline-start: 0px;
-	padding-left: 1rem;
+	padding-left: 1em;
 }
 li {
 	list-style: none;

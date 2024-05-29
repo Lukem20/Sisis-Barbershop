@@ -1,28 +1,18 @@
-#subtitle {
-  color: white;
-  font-size: 1.6rem;
-  font-family: League Spartan;
-  font-weight: 500;
-  margin-top: 4rem;
-}
-
 .barber-list-container {
-  padding-bottom: 4rem;
-  margin-bottom: 3rem;
+  padding-bottom: 4em;
+  margin-bottom: 3em;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card {
-  background: white;
-  width: 20rem;
-  height: 3.5rem;
-  text-align: center;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;  
+#subtitle {
+  color: white;
+  font-size: 1.6rem;
+  font-family: League Spartan;
+  font-weight: 500;
+  margin-top: 4rem;
 }
 
 .vagaro {
@@ -36,11 +26,25 @@
 	opacity: 1;
 }
 
+.card {
+  background: white;
+  width: 20em;
+  height: 3.5em;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Arrow icon */
+.card:last-child {
+  padding-right: 1.25em;
+  padding-left: 0.5em;
+}
+
 .name {
 	font-family:'Times New Roman', Times, serif;
   color: black;
 	font-size: 1.5rem;
-	padding-right: 1.5rem;
 	margin: 0;
 }
 
