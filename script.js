@@ -3,12 +3,12 @@ let slideIndex = 1;
 const showSlides = (n) => {
 	let allCarouselItems = document.getElementsByClassName("carousel-item");
 
-	// At end of slides, go to first slide
+	// From last slide, go to first slide
 	if (n > allCarouselItems.length) {
 		slideIndex = 1
 	}    
 
-	// At first slide, go to last slide
+	// From first slide, go to last slide
 	if (n < 1) {
 		slideIndex = allCarouselItems.length
 	}
