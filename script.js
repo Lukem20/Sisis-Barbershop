@@ -27,7 +27,7 @@ const changeSlideIndex = (n) => {
 	showSlides(slideIndex += n);
 }
 
-// Appointment button hover functionality
+// Book-Now hover functionality
 const hover = (button) => {
 	button.setAttribute('src', 'assets/appointments-button_white-03.svg');
 }

@@ -11,25 +11,26 @@
   <title>Sisi's Barbershop</title>
 
   <link rel="icon" type="image/png" href="assets/icons/sisis-barbershop-logo-03.png">
+  <link href="styles/appointment.css" rel="stylesheet" type="text/css" />
   <link href="styles/style.css" rel="stylesheet" type="text/css" />
   <link href="styles/responsive-style.css" rel="stylesheet" type="text/css" />
-  <link href="styles/appointment.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<header class="header-container">
 		<a href="index.html"><img id="logo" src="assets/icons/sisis-barbershop_logo-02.svg" alt="Sisi's Barbershop logo" /></a>
 		<h1>SISI'S BARBERSHOP</h1>
+		<!-- TODO: Refactor code smell -->
 		<div aria-hidden="true" id="spacer"></div>	
 	</header>
 
-	<section class="barber-list-container">
-		<h3 id="subtitle">Choose your Barber</h3>
+	<main class="barber-list-container">
+		<h2 id="subtitle">Choose your Barber</h2>
 
 		<a class="vagaro" href="https://www.vagaro.com/santarellibarberingco/book-now" target="_blank" rel="noopener noreferrer nofollow">
 			<div class="card">
 				<div class="pic-cropper">
-					<img src="assets/cody_profile.jpg" class="profile-pic" id="cs" alt="A man with a black shirt, gray hat, and beard smiles as he combs his client's hair.">
+					<img src="assets/cody-profile-min.webp" class="profile-pic" id="cs" alt="A man with a black shirt, gray hat, and beard smiles as he combs his client's hair.">
 				</div>
 				<h3 class="name">Cody Santarelli</h3>
 				<div aria-hidden="true">❯</div>
@@ -39,7 +40,7 @@
 		<a class="vagaro" href="https://www.vagaro.com/sisithebarber/book-now" target="_blank" rel="noopener noreferrer nofollow">
 			<div class="card">
 				<div class="pic-cropper">
-					<img src="assets/silvia_profile.jpg" class="profile-pic" id="sc" alt="A woman in a black shirt smiles as she puts a chair cloth on her client.">
+					<img src="assets/silvia-profile-min.webp" class="profile-pic" id="sc" alt="A woman in a black shirt smiles as she puts a chair cloth on her client.">
 				</div>
 				<h3 class="name">Silvia Calderon</h3>
 				<div aria-hidden="true">❯</div>
@@ -49,7 +50,7 @@
 		<a class="vagaro" href="https://www.vagaro.com/gypsycuts" target="_blank" rel="noopener noreferrer nofollow">
 			<div class="card">
 				<div class="pic-cropper">
-					<img id="jill" src="assets/jill_profile2.jpg" class="profile-pic" alt="A woman works on finishing a boy's haircut, focused on creating clean lines on his sideburns.">
+					<img id="jill" src="assets/jill_profile.jpg" class="profile-pic" alt="A woman works on finishing a boy's haircut, focused on creating clean lines on his sideburns.">
 				</div>
 				<h3 class="name">Jill the Barber</h3>
 				<div aria-hidden="true">❯</div>
@@ -59,7 +60,7 @@
 		<a class="vagaro" href="https://booksy.com/en-us/1001599_rafa-the-barber_barber-shop_134731_santa-rosa#ba_s=sh_1" target="_blank" rel="noopener noreferrer nofollow">
 			<div class="card">
 				<div class="pic-cropper">
-					<img id="rafa" src="assets/rafa_profile.jpg" class="profile-pic" alt="The barber applies the finishing marks on a young man's fade to finish a stylish and modern cut. ">
+					<img id="rafa" src="assets/rafa-profile-min.webp" class="profile-pic" alt="The barber applies the finishing marks on a young man's fade to finish a stylish and modern cut. ">
 				</div>
 				<h3 class="name">Rafa the Barber</h3>
 				<div aria-hidden="true">❯</div>
@@ -86,10 +87,10 @@
 			</div>
 		</a>
 
-	</section>
+	</main>
 
-	<section class="info-container">
-		<div id="address-container">
+	<footer class="info-container">
+		<section id="address-container">
 			<img src="assets/icons/pin-icon-05.svg" class="icon" alt="map location icon">
 			<a href="https://www.google.com/maps/search/?api=1&query=Sisi%27s%20Barbershop%2C%20Farmers%20Lane%2C%20Santa%20Rosa%2C%20CA" 
 				target="_blank" rel="noopener noreferrer" class="address-section">
@@ -97,10 +98,10 @@
 Santa Rosa, CA 
 95405</address>
 			</a>
-		</div>
+		</section>
 		
-		<div id="hours-container">
-			<img src="assets/icons/clock-icon-04.svg" class="icon" alt="clock icon">
+		<section id="hours-container">
+			<img src="assets/icons/clock-icon-04.svg" class="icon" alt="A clock icon centered above the business operating days & hours.">
 			<div class="business-hours">
 				<ul id="days">
 					<li>Monday - Friday</li>
@@ -115,7 +116,7 @@ Santa Rosa, CA
 					<li><time>9:00 AM</time> - <time>3:00 PM</time></li>
 				</ul>
 			</div>
-		</div>
-	</section>
+		</section>
+	</footer>
 	
 </body>

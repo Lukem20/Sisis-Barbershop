@@ -11,103 +11,112 @@
   <title>Sisi's Barbershop</title>
 
   <link rel="icon" type="image/png" href="assets/icons/sisis-barbershop-logo-03.png">
-  <link rel="stylesheet" href="styles/index.css">
+  <link href="styles/index.css" rel="stylesheet" type="text/css" />
   <link href="styles/style.css" rel="stylesheet" type="text/css" />
   <link href="styles/responsive-style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<header class="header-container">
-		<a href="index.html"><img id="logo" src="assets/icons/sisis-barbershop_logo-02.svg" alt="Sisi's Barbershop logo. A barber's pole with biker-style eagle wings." /></a>
+		<a href="index.html">
+			<img id="logo" src="assets/icons/sisis-barbershop_logo-02.svg" alt="Sisi's Barbershop logo. A barber's pole with biker-style eagle wings." />
+		</a>
 		<h1>SISI'S BARBERSHOP</h1>
+		<!-- TODO: Refactor code smell -->
 		<div aria-hidden="true" id="spacer"></div>
 	</header>
 	
-	<section class="carousel-container">
-		<div class="carousel-item fade">
-		  <div class="slide-number">1 / 8</div>
-		  <img src="assets/clippers.jpg" 
-		  	alt="Close-up view of electric razors organized in a row. Razor blade and pair of scissors out of focus in the background."
-			loading="eager">
-		</div>
-		
-		<div class="carousel-item fade">
-		  <div class="slide-number">2 / 8</div>
-		  <img src="assets/chairs.jpg" 
-		  	alt="A pair of black leather chairs face away from a barber's counter top. A towel is draped over the armrest of the first chair."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-
-		<div class="carousel-item fade">
-		  <div class="slide-number">3 / 8</div>
-		  <img src="assets/silvia.jpg" 
-		  	alt="A barber uses her electric razor to carefully trim the sides of a man's moustache."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-
-		<div class="carousel-item fade">
-		  <div class="slide-number">4 / 8</div>
-		  <img src="assets/cody.jpg" 
-		  	alt="Viewed from a reflection in a mirror, a boy sits in a chair while the barber gives a haircut."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-
-		<div class="carousel-item fade">
-			<div class="slide-number">5 / 8</div>
-			<img src="assets/dv-slideshow1.jpg" 
-				alt="A barber gives the finishing touches to the haircut of his client."
-				loading="lazy"
-			  decoding="async">
-		  </div>
-
-		<div class="carousel-item fade">
-		  <div class="slide-number">6 / 8</div>
-		  <img src="assets/beard-trim.jpg" 
-		  	alt="A man leans his head back as the barber gently applies shaving cream to his face."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-
-		<div class="carousel-item fade">
-		  <div class="slide-number">7 / 8</div>
-		  <img src="assets/clippers2.jpg" 
-		  	alt="Three electric razors are organized in a row against a dark background. Next to them lie a pair of scissors."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-
-		<div class="carousel-item fade">
-		  <div class="slide-number">8 / 8</div>
-		  <img src="assets/front-logo.jpg" 
-		  	alt="The outside window of the shop with a logo decal on the glass. The logo is a barber's pole with eagle wings on either side."
-		  	loading="lazy"
-			decoding="async">
-		</div>
-		
-		<nav class="carousel-center">
-			<a href="appointment.html"><button class="button book-now"><span>BOOK NOW</span></button></a>
+	<main class="carousel-container">
+		<nav role="navigation" class="center" aria-label="Make appointment">
+			<a class="book-now" href="appointment.html">BOOK NOW</a>
 		</nav>
-		
-		<button id="prev" class="carousel-slide-button" onclick="changeSlideIndex(-1)">❮</button>
-		<button id="next" class="carousel-slide-button" onclick="changeSlideIndex(1)">❯</button>
-	</section>
 
-	<section class="info-container">
-		<div id="address-container">
-			<img src="assets/icons/pin-icon-05.svg" class="icon" alt="map location icon">
+		<ol aria-label="Image Carousel">
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">1 / 8</div>
+				<img src="assets/clippers.webp" 
+					alt="Close-up view of electric razors organized in a row. 
+						Razor blade and pair of scissors out of focus in the background."
+					loading="eager">
+			</li>
+			  
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">2 / 8</div>
+				<img src="assets/chairs.webp" 
+					alt="A pair of black leather chairs face away from a barber's counter top. 
+						A towel is draped over the armrest of the first chair."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">3 / 8</div>
+				<img src="assets/silvia.webp" 
+					alt="A barber uses her electric razor to carefully trim the sides of a man's moustache."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">4 / 8</div>
+				<img src="assets/cody.webp" 
+					alt="Viewed from a reflection in a mirror, a boy sits in a chair while the barber gives a haircut."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">5 / 8</div>
+				<img src="assets/dv-slideshow1.jpg" 
+					alt="A barber gives the finishing touches to the haircut of his client."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">6 / 8</div>
+				<img src="assets/beard-trim.webp" 
+					alt="A man leans his head back as the barber gently applies shaving cream to his face."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">7 / 8</div>
+				<img src="assets/clippers2.webp" 
+					alt="Three electric razors are organized in a row against a dark background. 
+						Next to them lie a pair of scissors."
+					loading="lazy"
+					decoding="async">
+			</li>
+	
+			<li class="carousel-item fade">
+				<div role="status" class="slide-index">8 / 8</div>
+				<img src="assets/front-logo.webp" 
+					alt="The outside window of the shop with a logo decal on the glass. 
+						The logo is a barber's pole with eagle wings on either side."
+					loading="lazy"
+					decoding="async">
+			</li>
+		</ol>
+		
+		<button type="button" aria-label="Previous slide" id="prev" class="change-slide-button" onclick="changeSlideIndex(-1)">❮</button>
+		<button type="button" aria-label="Next slide" id="next" class="change-slide-button" onclick="changeSlideIndex(1)">❯</button>
+	</main>
+
+	<footer class="info-container">
+		<section id="address-container">
+			<img src="assets/icons/pin-icon-05.svg" class="icon" alt="A map pin icon centered above the business address.">
 			<a href="https://www.google.com/maps/search/?api=1&query=Sisi%27s%20Barbershop%2C%20Farmers%20Lane%2C%20Santa%20Rosa%2C%20CA" 
 				target="_blank" rel="noopener noreferrer" class="address-section">
-				<address>1523 Farmers Lane 
+<address>1523 Farmers Lane 
 Santa Rosa, CA 
 95405</address>
 			</a>
-		</div>
+		</section>
 		
-		<div id="hours-container">
-			<img src="assets/icons/clock-icon-04.svg" class="icon" alt="clock icon">
+		<section id="hours-container">
+			<img src="assets/icons/clock-icon-04.svg" class="icon" alt="A clock icon centered above the business operating days & hours.">
 			<div class="business-hours">
 				<ul id="days">
 					<li>Monday - Friday</li>
@@ -122,8 +131,8 @@ Santa Rosa, CA
 					<li><time>9:00 AM</time> - <time>3:00 PM</time></li>
 				</ul>
 			</div>
-		</div>
-	</section>
+		</section>
+	</footer>
 	
 <script src="script.js"></script>
 </body>

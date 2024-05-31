@@ -50,8 +50,7 @@
 
 .profile-pic {
 	object-fit: cover;
-  width: 10rem;
-  overflow: visible;
+  width: 180px;
 }
 .pic-cropper {
 	width: 100px;
@@ -63,19 +62,20 @@
 
 /* Position profile pic images */
 #cs {
-	translate: -40px; 
+	translate: -52px; 
 }
 #sc {
-  translate: -57px 0px;
+  translate: -65px -10px;
 }
 #jill {
-  translate: -5px -10px;
+  translate: -18px -30px;
 }
 #rafa {
-  translate: -50px -40px;
+  translate: -58px -12px;
+
 }
 #fa {
-  translate: -10px -20px;
+  translate: -25px -13px;
 }
 #da {
   translate: 0px;
