@@ -1,21 +1,67 @@
-/* *** Home page styles *** */
-
-/* Carousel styles */
+/* *** Carousel styles *** */
 .carousel-container {
 	height: 40vw;
 	width: 100%;
   	position: relative;
 	margin-bottom: 1em;
 }
-.carousel-container img {
+
+/* *** Book Now Button *** */
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+.book-now {
+	font-family: League Spartan;
+	font-size: 22px;
+	padding: 1em 3em 0.8em 3em;
+	border: 1.5px solid white;
+	border-radius: 10px;
+	background-color: #2F7E42;
+	color: white;
+	text-decoration: none;
+	transition: all 0.35s;
+}
+.book-now:hover {
+	background-color: white;
+	color: #2F7E42;
+	cursor: pointer;
+	padding-right: 65px;
+}
+.book-now:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;  
+	right: +20px;
+}
+.book-now:hover:after {
+	opacity: 1;
+	right: 20px;
+}
+
+/* *** Carousel slides *** */
+.carousel-container ol {
+	list-style-type: none;
+	padding-inline-start: 0;
+	margin: 0;
+}
+.carousel-container .carousel-item img {
 	height: 40vw;
 	width: 100%;
 	object-fit: cover;
 }
-.mySlides {
-	display: none;
+.slide-index {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
 }
-.carousel-slide-button {
+.change-slide-button {
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -27,8 +73,6 @@
 	font-size: 18px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
-
-	/* Overwrite button user agent stylesheet */
 	border: none;
 	background-color:rgba(255, 255, 255, 0.15);
 }
@@ -36,59 +80,17 @@
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.carousel-slide-button:hover {
+.change-slide-button:hover {
   background-color: rgba(0,0,0,0.8);
+  transition-duration: 0.5s;
 }
 
-.slide-number {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 0.75s;
 }
 @keyframes fade {
   from {opacity: 0.6} 
   to {opacity: 1}
-}
-.carousel-center {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-/* Call to Action */
-.book-now {
-	font-family: League Spartan;
-	font-size: 22px;
-	padding: 1rem 3rem;
-	border: none;
-	border-radius: 10px;
-	background-color: #39A455;
-	color: white;
-	transition: all 0.5s;
-}
-.book-now:hover {
-	background-color: white;
-	color: #39A455;
-	cursor: pointer;
-}
-.book-now:after {
-	content: '»';
-	position: absolute;
-	opacity: 0;  
-	right: +20px;
-}
-.book-now:hover{
-	padding-right: 65px;
-}
-.book-now:hover:after {
-	opacity: 1;
-	right: 20px;
 }
