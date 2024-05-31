@@ -26,12 +26,3 @@ showSlides(slideIndex);
 const changeSlideIndex = (n) => {
 	showSlides(slideIndex += n);
 }
-
-// Book-Now hover functionality
-const hover = (button) => {
-	button.setAttribute('src', 'assets/appointments-button_white-03.svg');
-}
-
-const unhover = (button) => {
-	button.setAttribute('src', 'assets/appointments-button_green-01.svg');
-}
