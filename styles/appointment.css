@@ -51,7 +51,6 @@
 .profile-pic {
 	object-fit: cover;
   width: 10rem;
-  overflow: visible;
 }
 .pic-cropper {
 	width: 100px;
