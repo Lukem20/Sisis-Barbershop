@@ -75,7 +75,8 @@
 
 }
 #fa {
-  translate: -25px -23px;
+  /* LOOKS DIFFERENT IN PROD */
+  translate: -25px -33px;
 }
 #da {
   translate: 0px;
