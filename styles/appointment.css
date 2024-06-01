@@ -69,14 +69,15 @@
 }
 #jill {
   translate: -18px -23px;
+  height: 160px;
 }
 #rafa {
   translate: -58px -12px;
 
 }
 #fa {
-  /* LOOKS DIFFERENT IN PROD */
   translate: -25px -23px;
+  height: 195px;
 }
 #da {
   translate: 0px;
