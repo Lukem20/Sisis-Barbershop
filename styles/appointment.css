@@ -68,7 +68,7 @@
   translate: -65px -10px;
 }
 #jill {
-  translate: -18px -30px;
+  translate: -18px -23px;
 }
 #rafa {
   translate: -58px -12px;
@@ -76,7 +76,7 @@
 }
 #fa {
   /* LOOKS DIFFERENT IN PROD */
-  translate: -25px -33px;
+  translate: -25px -23px;
 }
 #da {
   translate: 0px;
