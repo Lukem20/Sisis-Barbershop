@@ -45,10 +45,14 @@ body::-webkit-scrollbar-thumb {
 	background-color: black;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 #logo {
 	position: absolute;
-	height: 5.5rem;
+	top: 0.75em;
+	height: 4em;
+	padding-left: 1.5em;
+	margin: 0;
 }
 h1 {
 	font-family: League Spartan;

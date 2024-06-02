@@ -4,7 +4,7 @@
 		font-size: 28px;
 	}
 	#logo {
-    	height: 5em;
+    	height: 3.5em;
 	}
 }
 @media only screen and (max-width: 518px) {
@@ -13,9 +13,11 @@
 		padding-bottom: 0.25em;
 	}
 	#logo {
-    	height: 4.25em;
-		padding-top: 0.35em;
+    	height: 3em;
   	}
+	.header-container {
+		height: 4.5em;
+	}
 }
 @media only screen and (max-width: 455px) {
 	.header-container {
@@ -27,12 +29,15 @@
 		padding-top: 0.65em;
 	}
 	#logo {
-    	height: 3.5em;
+    	height: 2.5em;
 	}
 }
 @media only screen and (max-width: 365px) {
 	h1 {
 		margin-left: 1em;
+	}
+	#logo {
+    	height: 2.25em;
 	}
 }
 
