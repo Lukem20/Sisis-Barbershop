@@ -65,8 +65,9 @@
 	translate: -7px -5px; 
 }
 #sc {
-  translate: -40px -20px;
+  translate: -40px -22px;
   width: 160px;
+  height: 160px;
 }
 #jill {
   translate: -22px -50px;
